@@ -1,10 +1,9 @@
-import { ProdutoRepository } from './src/repository/ProdutoRepository';
 import readlinesync = require("readline-sync");
 import { colors } from "./src/util/colors";
 import { LivroDeficcao } from "./src/model/LivroDeFiccao";
 import { LivroDeNãoFiccao } from "./src/model/LivroNaoFiccao";
 import { ProdutoController } from "./src/controller/ProdutoController";
-import { Produto } from './src/model/Produto';
+
 
 
 export function main() {
