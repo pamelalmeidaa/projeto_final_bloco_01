@@ -1,1 +1,1 @@
-Guitarra
+tipoProduto !== ""

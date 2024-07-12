@@ -3,7 +3,7 @@ import { Produto } from "./Produto";
 export class LivroDeficcao extends Produto{
     private _categoria: string;
 
-	constructor(id: number, nome:string, tipo: number, preco: number, categoria: string) {
+	constructor(id: number, nome: string, tipo: number, preco: number, categoria: string) {
         super(id, nome, tipo, preco);
 		this._categoria = categoria;
 	}

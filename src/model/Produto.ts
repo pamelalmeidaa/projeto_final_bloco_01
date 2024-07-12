@@ -1,4 +1,10 @@
 export abstract class Produto{
+    static gerarId(): any {
+        throw new Error('Method not implemented.');
+    }
+    static cadastrarproduto(arg0: any) {
+        throw new Error('Method not implemented.');
+    }
 
     private _id : number; 
     private _nome: string;
