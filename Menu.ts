@@ -1,11 +1,16 @@
 import readlinesync = require("readline-sync");
 import { colors } from "./src/util/colors";
-
+import { LivroDeficcao } from "./src/model/LivroDeFiccao";
+import { LivroDeNãoFiccao } from "./src/model/LivroNaoFiccao";
 
 
 export function main() {
 
     let opcao: number;
+    const l1: LivroDeficcao = new LivroDeficcao(1, "Ps Eu te Amo", 1, 45, "Romance");
+    l1.visualizar();  
+    const l2: LivroDeNãoFiccao = new LivroDeNãoFiccao(2, "O poder do Hábito", 2, 60, "Autoajuda");
+    l2.visualizar();  
 
     while (true) {
 
